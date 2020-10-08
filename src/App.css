@@ -1,0 +1,20 @@
+.app-wrapper {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+  /*grid-gap: 10px;*/
+  grid-template-areas:
+    "h h "
+    "n c ";
+  width: 100vw;
+  min-height: 100vh;
+}
+.app-wrapper-content{
+  grid-area: c;
+  background: linear-gradient(to right, rgba(0,0,0, 0.7) , rgba(0,0,0, 0.7)), url(http://mythemestore.com/friend-finder/images/bg/bg-3.jpg) fixed no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
